@@ -8,7 +8,6 @@ import bookmarkView from './views/bookmarkView';
 import paginationView from './views/paginationView';
 import addRecipeView from './views/addRecipeView';
 import { MODAL_CLOSE__MILLISEC } from './config';
-import { async } from 'regenerator-runtime';
 
 // if (module.hot) {
 //   module.hot.accept;

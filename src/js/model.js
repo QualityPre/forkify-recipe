@@ -3,7 +3,7 @@ import { KEY } from './config';
 import { AJAX } from './helpers';
 import { RES_PER_PAGE } from './config';
 
-import { async } from 'regenerator-runtime';
+
 
 export const state = {
   recipe: {},
@@ -39,7 +39,7 @@ export const loadRecipe = async function (id) {
       state.recipe.bookmarked = true;
     } else state.recipe.bookmarked = false;
   } catch (err) {
-    console.log(err);
+    
     throw err;
   }
 };
